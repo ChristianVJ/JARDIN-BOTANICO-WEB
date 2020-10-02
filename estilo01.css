@@ -1,0 +1,599 @@
+/* --------------------- ESTILO COMÚN A TODAS LAS PÁGINAS ------------------------------*/
+
+
+/* ---------------------------------------------------------------------------------- */
+/* ------------- CONTENIDO/CABECERA/PIE PÁGINA/ICONO MENU LOGIN --------------------- */
+
+#cabecera-pie /*Estilo de la cabecera*/
+{
+    height: 180px;
+    width: 1100px;
+}
+
+
+#piepagina /*Estilo del pie de página*/
+{
+    position: relative;
+    top: 1252px;
+    height: 143px; 
+}
+
+
+#contenido /*Necesario para centrar la página*/
+{
+    top:20px;
+    width:964px;
+    height:1574px;
+    margin:0 auto; 
+    
+}
+
+#icono-menu2 /*icono user*/
+{
+    position:absolute;
+    top:29px;
+    left:7px;
+    width:7px;
+    height:7px;
+}
+
+#icono-menu3 /*icono pass*/
+{
+    position:absolute;
+    top:77px;
+    left:7px;
+    width:7px;
+    height:7px;
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+
+/* ---------------------- CABECERA CONTENIDO ----------------------------------------- */
+
+#cabeceratexto /*Estilo cabecera de texto*/
+{
+    position:relative;
+    height: 46px;
+    width: 770px;
+    top: -67px;
+    margin-left:-20px;
+    border-bottom:2px solid green;
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+/* ---------------------- LOGIN ------------------------------------------------------ */
+
+#usuario /*recuadro login usuario*/
+{
+    font-size: 10px;
+    font-family: Arial,'Times New Roman',serif;
+    color:black;
+    border:none;
+    position:relative;
+    top:-40px;
+    margin: 1px;   
+    height: 15px;
+    width: 150px;
+}
+
+
+#pass /*recuadro login contraseña*/
+{
+    font-size: 10px;
+    font-family: Arial,'Times New Roman',serif;
+    color:black;
+    border:none;
+    position:relative;
+    top:-30px;
+    margin: 1px;   
+    height: 15px;
+    width: 150px;
+}
+
+
+#btnSubmit /*ENVIAR*/
+{
+    background: url(enviar.png) center left no-repeat;
+    position:relative;
+    top:-25px;
+    height: 30px;
+    width: 71px;
+    cursor: pointer;  
+}
+
+
+#pass2 /*Apartado contraseña*/
+{
+    font-size: 10px;
+    font-family: Arial,'Times New Roman',serif;
+    color:black;
+    position:relative;
+    top:-30px;
+    height: 15px;
+    width: 60px;
+}
+
+
+#usuario1 /*Apartado usuario*/
+{
+    font-size: 10px;
+    font-family: Arial,'Times New Roman',serif;
+    color:black;
+    position:relative;
+    top:-40px;
+    margin: 0px;   
+    height: 15px;
+    width: 40px;
+  
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+
+/* ---------------------- ESTILO DEL MENÚ -------------------------------------------- */
+#icono-menu
+{
+    position:absolute;
+    top:19px;
+    left:7px;
+    width:7px;
+    height:7px;
+}
+
+
+
+
+#menu_desplegable,  ul, li, li li /*TODO EL MENU*/
+{
+    padding: 0;
+
+}
+
+
+#menu_desplegable /*Anchura, altura del menu principal*/
+{
+    width: 190px;
+    height: 410px;
+}
+
+
+#menu_desplegable li /*Posición del menú*/
+{
+    top:15px;
+    list-style: none;
+    position:relative;
+}
+
+
+.listaInicio /*Submenu Inicio*/
+{
+    background: url("http://www.zweigmedia.com/MundoReal/tutorialsf4/greendot.gif") no-repeat scroll 4pt 4pt transparent;
+    font-weight:bold;
+    padding-left: 20px;
+    margin:auto;
+    text-decoration: none;
+}
+
+
+#menu_desplegable .lista  /*Resto submenus*/
+{
+    background-image: url(http://www.displayamerica.com/wp-content/uploads/2010/03/silver-gradient.jpg);
+    color: whitesmoke;
+    display: block;
+     font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    text-align:left;
+    font-weight: normal;
+    line-height: 180%;
+    padding: 13px 20px;
+    text-decoration: none;
+ 
+}
+
+#menu_desplegable > ul > li:hover > .lista  /*Submenu seleccionado*/
+{
+    background-color: #070707;
+    background-image: url(http://cdns2.freepik.com/free-photo/_17-724053821.jpg);
+    background-repeat: repeat-x;
+    box-shadow: inset 0 0 5px black;
+    -moz-box-shadow: inset 0 0 5px black;
+    -webkit-box-shadow: inset 0 0 5px black;
+    color: black;
+  
+}
+
+
+#menu_desplegable .lista1  /*Submenu marcado*/
+{
+    background-image: url(http://fc08.deviantart.net/fs51/f/2009/309/d/2/Green_Grass_Gradient_by_Halaxega.png);
+    background-repeat: repeat-x;
+    color: black;
+    display: block;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    text-align:left;
+    font-weight: normal;
+    line-height: 180%;
+    padding: 13px 20px;
+    text-decoration: none;
+}
+
+
+#menu_desplegable .lista2  /*Sub-submenus abiertos*/
+{
+    background-image: url(http://www.watchphoneglobal.com/sitebuilder/images/Gray_Gradient_Gray_White-1200x1813.jpg);
+    color: whitesmoke;
+    display: block;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    text-align:left;
+    font-weight: normal;
+    line-height: 180%;
+    padding: 13px 20px;
+    text-decoration: none;
+}
+
+
+#menu_desplegable > ul > li:hover > .lista2  /*Sub-submenu seleccionado*/
+{
+    background-image: url(http://www.hrinyourpocket.com/wp-content/uploads/2013/03/3541-blue-gradient-1920x1200-abstract-wallpaper.jpg);
+    box-shadow: inset 0 0 5px black;
+    text-decoration: none;
+}
+
+
+
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------------- */
+/* ------------------------ NOTICIAS.HTML------------------------------ */
+/* -------------------------------------------------------------------- */
+
+
+#texto_noticias /*Colocación del texto, formato, etc...*/
+{    
+    position:absolute;
+    height: 622px;
+    width: 730px;
+    margin-right: auto;
+    margin-left: 190px;
+    top:286px;
+    background-color: ghostwhite;  /* fondo azul */ 
+    padding:20px;/*para que el texto no choque con el borde*/
+    font-size:16px;
+ 
+}
+
+
+#acceso_usuario_noticias /*Estilo para el acceso de usuario*/
+{
+    position: relative;
+    top: 95px;
+    width:150px;
+    height:150px;
+    background-color: darkgrey;  /* fondo azul */ 
+    color: black; /* letra negra */ 
+    text-align:left;
+    padding:20px;/*para que el texto no choque con el borde*/
+    border-bottom:1px solid black;
+}
+
+
+#piepagina_noticias /*Estilo del pie de página*/
+{
+    position: relative;
+    /* Altura total del footer en px con valor negativo */
+    margin-top: 751px;
+    /* Altura del footer en px. Se han restado los 5px del margensuperior mas los 5px del margen inferior*/
+    height: 143px; 
+    padding:5px 0px;
+}
+
+
+.titulo_noticias /*Ultimas noticias*/
+{
+    font-weight:bold;
+    margin-top:-40px;
+    margin-left:10px;
+    padding:0px;/*para que el texto no choque con el borde*/
+    font-size:30px;
+}
+
+
+.p1noticias /*Fecha*/
+{
+    position:absolute;
+    top:100px;
+    margin-left:50px;
+    padding:1px;/*para que el texto no choque con el borde*/
+    font-size:16px;
+    color:green;
+}
+
+
+.p2noticias /*Noticia Prueba*/
+{
+    position:absolute;
+    font-weight:bold;
+    top:123px;
+    margin-left:50px;
+    padding:1px;/*para que el texto no choque con el borde*/
+    font-size:20px;
+}
+
+
+.p3noticias /*Contenido noticia*/
+{
+    position:absolute;
+    top:165px;
+    margin-left:50px;
+    padding:1px;/*para que el texto no choque con el borde*/
+    font-size:15px;
+}
+
+
+.p4noticias /*Leer mas*/
+{
+    position:absolute;
+    font-style:italic ;
+    top:230px;
+    margin-left:626px;
+    padding:1px;/*para que el texto no choque con el borde*/
+    font-size:15px;
+}
+
+
+.hrnoticias /*Barra horizontal*/
+{ 
+    margin-top:220px;
+    width: 86%; 
+}
+
+/* -------------------------------------------------------------------- */
+/* ------------------------ COMO_LLEGAR.HTML--------------------------- */
+/* -------------------------------------------------------------------- */
+
+#frame /*Google maps frame*/
+{
+    position:relative;
+    top:-60px;
+    margin-top:60px;
+    left:90px;
+}
+
+#acceso_usuario /*Estilo para el acceso de usuario*/
+{
+    position: relative;
+    top: 1px;
+    width:150px;
+    height:150px;
+    background-color: darkgrey;  /* fondo azul */ 
+    color: black; /* letra negra */ 
+    text-align:left;
+    padding:20px;/*para que el texto no choque con el borde*/
+    border-bottom:1px solid black;
+}
+
+/* -------------------------------------------------------------------- */
+/* ------------------------ INFORMACIÓN.HTML--------------------------- */
+/* -------------------------------------------------------------------- */
+
+#acceso_usuario_info /*Estilo para el acceso de usuario*/
+{
+    position: relative;
+    top: 1px;
+    width:150px;
+    height:150px;
+    background-color: darkgrey;  /* fondo azul */ 
+    color: black; /* letra negra */ 
+    text-align:left;
+    padding:20px;/*para que el texto no choque con el borde*/
+    border-bottom:1px solid black;
+}
+
+
+#cabeceratexto_info /*Cabecera banner del contenido*/
+{   
+    position:relative;
+    height: 46px;
+    width: 770px;
+    top: -155px;
+    margin-right: auto;
+    margin-left:-20px;
+    border-bottom:2px solid green;
+}
+
+
+#texto_info /*Colocación del texto, formato, etc...*/
+{ 
+    position:absolute;
+    height: 814px;
+    width: 729px;
+    margin-right: auto;
+    margin-left: 190px;
+    top:286px;
+    background-color: ghostwhite;  /* fondo azul */ 
+    padding:20px;/*para que el texto no choque con el borde*/
+    font-size:16px;
+    border-top:10px;
+}
+
+
+#piepagina_info /*Estilo del pie de página*/
+{
+    position: relative;
+    /* Altura total del footer en px con valor negativo */
+    margin-top: 943px;
+    /* Altura del footer en px. Se han restado los 5px del margen*/
+    height: 143px; 
+    padding:5px 0px;
+}
+
+
+.p2_info /*parrafo 1*/
+{
+    position:relative;
+    top:670px;
+    text-align:center;
+}
+
+
+.p3_info /*parrafo 2*/
+{
+    position:relative;
+    top:700px;
+    text-align:center;
+}
+
+
+.HR1 /*barra 1*/
+{
+    border-top:6px solid GREEN;
+    margin-top:-120px;
+    padding:0px;/*para que el texto no choque con el borde*/
+}
+
+
+.HR2 /*barra 2*/
+{
+    border-top:6px solid GREEN;
+    margin-top:40px;
+    padding:0px;/*para que el texto no choque con el borde*/
+}
+
+
+.contenido_tabla /*contenido de las tablas*/
+{
+    padding-top:11px;
+    padding-bottom:11px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+
+.apartados_tabla /*apartados con fondo de las tablas*/
+{
+    background-color:mediumseagreen;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:20px;
+}
+
+
+/* -------------------------------------------------------------------- */
+/* ------------------------ INICIO.HTML-------------------------------- */
+/* -------------------------------------------------------------------- */
+
+#acceso_usuario /*Estilo para el acceso de usuario*/
+{
+    position: relative;
+    top: 1px;
+    width:150px;
+    height:150px;
+    background-color: darkgrey;  /* fondo azul */ 
+    color: black; /* letra negra */ 
+    text-align:left;
+    padding:20px;/*para que el texto no choque con el borde*/
+    border-bottom:1px solid black;
+}
+
+
+#foto1 /*FOTO 1*/
+{
+    padding-top:8px;
+    padding-bottom:8px;
+    background-color: #ffffff; 
+    border-top: 3px solid black; 
+    border-bottom: 3px solid black; 
+    position:relative;
+    height: 160px;
+    width: 490px;
+    top:-4px;
+    margin-left: 140px;
+}
+
+
+#foto2 /*FOTO 2*/
+{
+    padding-top:8px;
+    padding-bottom:8px;
+    border-top: 3px solid black; 
+    border-bottom: 3px solid black; 
+    position:relative;
+    height: 220px;
+    width: 480px;
+    top:10px;
+    margin-left: 140px;
+}
+
+
+#foto3 /*FOTO 3*/
+{
+    padding-top:8px;
+    padding-bottom:8px;
+    background-color: #ffffff; 
+    border-top: 3px solid black; 
+    border-bottom: 3px solid black; 
+    position:relative;
+    height: 320px;
+    width: 480px;
+    top:0px;
+    margin-left: 140px;
+}
+
+
+#texto /*Colocación del texto, formato, etc...*/
+{
+    position:absolute;
+    height: 1119px;
+    width: 729px;
+    margin-left: 190px;
+    top:286px;
+    background-color: ghostwhite;  /* fondo azul */ 
+    padding:20px;/*para que el texto no choque con el borde*/
+    font-size:16px;
+}
+
+
+#texto p /*Parrafo 1 y el resto*/
+{
+    font-weight: normal;
+    margin-top:-40px;
+    padding:0px;/*para que el texto no choque con el borde*/
+}
+
+
+#texto .p2 /*Colocar parrafo 2*/
+{
+    margin-top:20px;
+    padding:0px;/*para que el texto no choque con el borde*/
+}
+ 
+
+#texto .p3 /*Colocar parrafo 3*/
+{
+    margin-top:20px;
+    padding:0px;/*para que el texto no choque con el borde*/
+}
+
+
+
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
+/* -------------------------------------------------------------------- */
